@@ -1,20 +1,23 @@
 C:
-  - "( C )"
+  - "**/*.c"
 C-Plus-Plus:
-  - "(C-Plus-Plus|CPP|cpp|Cpp)"
+  - "**/*.cpp"
+  - "**/*.cc"
+  - "**/*.cxx"
 C-Sharp:
-  - "(C-Sharp|csharp|C#|C-SHARP|C-sharp|c-sharp|CSHARP)"
+  - "**/*.cs"
 Go:
-  - "(Go|GO|Golang|golang|GOLANG)"
+  - "**/*.go"
 Java:
-  - "(Java|java|JAVA)"
+  - "**/*.java"
 JavaScript:
-  - "(JavaScript|JAVASCRIPT|Javascript|javascript|JS|js|javaScript)"
+  - "**/*.js"
 Python:
-  - "(Python|PYTHON|python)"
+  - "**/*.py"
 Q-Sharp:
-  - "(Q-Sharp|qsharp|Q#|Q-SHARP|Q-sharp|q-sharp|QSHARP)"
-enhancement:
-  - "(enhancement)"
+  - "**/*.qs"
 Dart:
-  - "(Dart|dart|DART)"
+  - "**/*.dart"
+enhancement:
+  - ".github/**"
+  - "**/*.md"
